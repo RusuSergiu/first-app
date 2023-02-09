@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 600px;
+    height: 900px;
+    margin: 0 auto;
+    background-color: #23252C;
+    font-family: Inter, sans-serif;
+    text-align: center;
+}
+
+.container {
+    width: 317px;
+    margin: 50px auto;
+    border-radius: 10px;
+    background-color: #1A1B21;
+    color: white;
+}
+
+.profile-name, .profile-job, .profile-website {
+    margin: 0;
+}
+
+.profile-name {
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.profile-job {
+    font-size: 13px;
+    color: #F3BF99;
+}
+
+.profile-website {
+    padding: 15px 0;
+    font-size: 10px;
+}
+
+.profile-picture {
+    width: 317px;
+    border-radius: 10px 10px 0 0;
+}
+
+.mail-icon, .LinkedIn-icon {
+    height: 15px;
+    display: flex;
+    margin-right: 7px;
+}
+
+.LinkedIn-icon {
+    background-color: white;
+}
+
+.mail-title, .LinkedIn-title {
+    font-size: 14px;
+    width: 115px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    border-radius: 7px;
+}
+
+.LinkedIn-title {
+    color: white;
+    background-color: #5093E2;
+}
+
+.info-buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about-title, .interests-title, .about-body, .interests-body {
+    margin: 0;
+    text-align: left;
+    padding: 0 30px;
+}
+
+.about-title, .interests-title {
+    font-size: 16px;
+}
+
+.about-body, .interests-body {
+    font-size: 10px;
+}
+
+.about-section {
+    padding: 25px 0;
+}
+
+.interests-section {
+    padding: 0 0 40px 0;
+}
+
+footer {
+    border-radius: 0 0 10px 10px;
+    height: 50px;
+    background-color: #161619;
+}
+
+.github-icon, .instagram-icon, .facebook-icon, .twitter-icon  {
+    height: 24px;
+    margin: 12px;
+    background-color: #918E9B;
+    border-radius: 3px;
+}
